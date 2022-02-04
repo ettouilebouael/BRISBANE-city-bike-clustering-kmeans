@@ -46,8 +46,8 @@ spark-submit run.py
 ## Données
 Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emplacement de chaque vélo. 
 Le jeu de données se compose de 149 vélos avec les caractéristiques suivantes :
-- adresse : lieu où se trouve le vélo
-- number : numéro de chauqe vélo
+- adresse : lieu où se trouvent les vélos
+- number : numéro de chaque vélo
 - name : numéro + adresse
 - Latitude
 - Longitude
