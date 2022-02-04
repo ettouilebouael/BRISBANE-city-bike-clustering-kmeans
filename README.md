@@ -86,7 +86,7 @@ Le kmeans distingue 3 clusters :
 
 
 ## Visualisation cartographique
-Pour illuster les clusters obtenus nous avons crée la carte suivante :
+Pour illuster les clusters obtenus nous avons créé la carte suivante :
 
 ![Visualisation](img/carte.png)
 
