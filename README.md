@@ -31,7 +31,7 @@ Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emp
 - Longitude
 - name
 - number
-
+<br>
 
 ## Résultas
 ### DSL
@@ -43,7 +43,6 @@ Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emp
 |         2|-27.482543657142866|153.00442045714286|
 ---------------------------------------------------
 
-
 ### SQL
 |prediction|   Latitude_moyenne| Longitude_moyenne|
 |:---------|------------------:|-----------------:|
@@ -51,10 +50,11 @@ Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emp
 |         1|-27.460720829787235|153.04137646808513|
 |         2|-27.482543657142866|153.00442045714286|
 ---------------------------------------------------
-
-
+<br>
 
 ## Visualisation cartographique
+
+![Visualisation](img/carte.png)
 
 Une version interactive de la carte : [lien](https://htmlpreview.github.io/?https://raw.githubusercontent.com/ettouilebouael/BRISBANE-city-bike-clustering-kmeans/main/exported/carte_velo_brisbane.html)
 ``````````````````
