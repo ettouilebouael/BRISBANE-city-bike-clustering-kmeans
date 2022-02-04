@@ -1,7 +1,23 @@
 # BRISBANE-city-bike-clustering-kmeans
 L'objectif principal de ce projet est de proposer un k-means clustering de Bristol City Bike en fonction de l'emplacement des stations vélos en utilisant spark.
+<p align="center">
+<img src="img/bikes.png" width="400">
+<p>
+
+##### Table of Contents  
+[Comment exécuter le code sur linux ?](#Comment exécuter le code sur linux ?)  
+[Données](#Données)
+[Résultas](#Résultas)  
+[Visualisation cartographique](#Visualisation cartographique)  
 
 
+
+...snip...    
+<a name="headers"/>
+## Headers
+  
+  
+  
 > Prerequisites
 - Python 3.6+ 
 - Java 8
@@ -10,6 +26,12 @@ L'objectif principal de ce projet est de proposer un k-means clustering de Brist
 - Folium 0.12.1
 - Pandas 1.2.4
 <br>
+
+> Description des fichiers
+- data : dossier contenant les données Brisbane-City-Bike;
+- exported : dossier contenant la bases fitted et la carte interactive de Brisbane;
+- properties.conf : fichier de configuration pour le nombre de clusters kmeans, chemin d'exportation des données et chemin d'importation des données;
+- run.py : script python du kmeans.
 
 ## Comment exécuter le code sur linux ?
 ```sh
@@ -25,16 +47,20 @@ spark-submit run.py
 <br>
 
 ## Données
-Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emplacement de chaque vélo. Le jeu de données contient le variables suivantes :
-- Adresse
+Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emplacement de chaque vélo. 
+Le jeu de données se compose de 149 vélos avec les caractéristiques suivantes :
+- adresse : lieu où se trouve le vélo
+- number : numéro de chauqe vélo
+- name : numéro + adresse
 - Latitude
 - Longitude
-- name
-- number
+
+Notre objectif donc est de regrouper les vélos en utilisant k-means en fonction de leur emplacement géographique.
+
 <br>
 
-## Résultas
-### DSL
+## Résultas : Moyennes pour chaque cluster
+### Avec DSL
 
 |prediction|   Latitude_moyenne| Longitude_moyenne|
 |:--------:|------------------:|-----------------:|
@@ -43,7 +69,7 @@ Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emp
 |         2|-27.482543657142866|153.00442045714286|
 ---------------------------------------------------
 
-### SQL
+### Avec SQL
 |prediction|   Latitude_moyenne| Longitude_moyenne|
 |:---------|------------------:|-----------------:|
 |         0| -27.47285783582089|153.02444714925372|
@@ -52,7 +78,15 @@ Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emp
 ---------------------------------------------------
 <br>
 
+## Interprétation des résultats
+Le kmeans distingue 3 clusters :
+- Est : Vélos situés à l'est de la ville
+- Centre : Vélos situés au centre de la ville
+- Ouest :Vélos situés à l'ouest de la ville
+
+
 ## Visualisation cartographique
+Pour illuster les clusters obtenus nous avons crée la carte suivante :
 
 ![Visualisation](img/carte.png)
 
