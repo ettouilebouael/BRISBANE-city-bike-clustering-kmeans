@@ -90,5 +90,7 @@ Pour illuster les clusters obtenus nous avons crée la carte suivante :
 
 ![Visualisation](img/carte.png)
 
-Une version interactive de la carte : [lien](https://htmlpreview.github.io/?https://raw.githubusercontent.com/ettouilebouael/BRISBANE-city-bike-clustering-kmeans/main/exported/carte_velo_brisbane.html)
+Une version interactive de la carte : [lien](https://ghcdn.rawgit.org/ettouilebouael/BRISBANE-city-bike-clustering-kmeans/main/exported/carte_velo_brisbane.html)
+  
+ 
 ``````````````````
