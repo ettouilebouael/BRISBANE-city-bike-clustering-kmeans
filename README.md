@@ -6,13 +6,7 @@ L'objectif principal de ce projet est de proposer un k-means clustering de Brist
 
 ##### Table of Contents
 
-[Comment exécuter le code sur linux ?](##Comment exécuter le code sur linux ?)
-
-[Données](##Données)
-  
-[Résultas](##Résultas)
-
-[Visualisation cartographique](##Visualisation cartographique)  
+[Comment exécuter le code sur linux ?](#Comment-exécuter-le-code-sur-linux-?)
 
   
   
