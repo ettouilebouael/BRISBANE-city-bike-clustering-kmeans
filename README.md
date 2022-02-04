@@ -6,9 +6,9 @@ L'objectif principal de ce projet est de proposer un k-means clustering de Brist
 
 ##### Table of Contents
 
-- [Comment exécuter le code sur linux ?](#Comment-exécuter-le-code-sur-linux?)
+- [Exécution du code sur linux](#Comment-exécution-du-code-sur-linux)
 - [Données](#Données)
-- [Résultas : Moyennes pour chaque cluster](#Résultas-:-Moyennes-pour-chaque-cluster)
+- [Moyennes pour chaque cluster](#Moyennes-pour-chaque-cluster)
 - [Interprétation des résultats](#Interprétation-des-résultats)
 - [Visualisation cartographique](#Visualisation-cartographique)
 
@@ -30,7 +30,7 @@ L'objectif principal de ce projet est de proposer un k-means clustering de Brist
 - properties.conf : fichier de configuration pour le nombre de clusters kmeans, chemin d'exportation des données et chemin d'importation des données;
 - run.py : script python du kmeans.
 
-## Comment exécuter le code sur linux?
+## Exécution du code sur linux
 ```sh
 # Cloner le repertoire GIT
 git clone https://github.com/ettouilebouael/BRISBANE-city-bike-clustering-kmeans.git
@@ -56,7 +56,7 @@ Notre objectif donc est de regrouper les vélos en utilisant k-means en fonction
 
 <br>
 
-## Résultas : Moyennes pour chaque cluster
+## Moyennes pour chaque cluster
 ### Avec DSL
 
 |prediction|   Latitude_moyenne| Longitude_moyenne|
