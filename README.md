@@ -56,7 +56,5 @@ Le fichier BRISBANE-city-bike.json  contient des informations concernant l’emp
 
 ## Visualisation cartographique
 
-Une version interactive de la carte : lien
-
-
-
+Une version interactive de la carte : [lien](https://htmlpreview.github.io/?https://raw.githubusercontent.com/ettouilebouael/BRISBANE-city-bike-clustering-kmeans/main/exported/carte_velo_brisbane.html)
+``````````````````
