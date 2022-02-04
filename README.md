@@ -4,18 +4,16 @@ L'objectif principal de ce projet est de proposer un k-means clustering de Brist
 <img src="img/bikes.png" width="400">
 <p>
 
-##### Table of Contents  
-[Comment exécuter le code sur linux ?](#Comment exécuter le code sur linux ?)  
-[Données](#Données)
-[Résultas](#Résultas)  
-[Visualisation cartographique](#Visualisation cartographique)  
+##### Table of Contents
 
+[Comment exécuter le code sur linux ?](##Comment exécuter le code sur linux ?)
 
-
-...snip...    
-<a name="headers"/>
-## Headers
+[Données](##Données)
   
+[Résultas](##Résultas)
+
+[Visualisation cartographique](##Visualisation cartographique)  
+
   
   
 > Prerequisites
